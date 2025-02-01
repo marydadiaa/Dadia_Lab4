@@ -31,12 +31,13 @@ Authentication is crucial for protecting your API. By implementing authenticatio
 Proper error handling and clear HTTP exceptions ensure that users and developers interacting with your API receive useful feedback. This helps them understand and handle errors in their applications more effectively.
 
 <h3>Steps: </h3>
-1. Installing dependencies like, ("pip install -r requirements.txt").
-2. Create .env file for storing the API KEY, ("API_KEY=your-secret-api-key").
-3. Run the API using, ("uvicorn main:app --reload").
-4. Perform the GET command POST, PATCH, DELETE. It has two version which is the "apiv1" and "apiv2".
-- GET /apiv1/tasks/1
-- POST /apiv1/tasks
-- PATCH /apiv1/tasks/1
+1. Installing dependencies like, ("pip install -r requirements.txt"). <br>
+2. Create .env file for storing the API KEY, ("API_KEY=your-secret-api-key"). <br>
+3. Run the API using, ("uvicorn main:app --reload"). <br>
+4. Perform the GET command POST, PATCH, DELETE. It has two version which is the "apiv1" and "apiv2". Each command requires an authentication using your own valid API KEY.<br>
+<br>
+- GET /apiv1/tasks/1 <br>
+- POST /apiv1/tasks <br>
+- PATCH /apiv1/tasks/1 <br>
 - DELETE /apiv1/tasks/1
 
